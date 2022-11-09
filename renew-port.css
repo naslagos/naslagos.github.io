@@ -1,0 +1,216 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: serif;
+}
+.nav_control{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+/* #bodyimg{
+    width: 4rem;
+    height: 3rem;
+    
+} */
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+#nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    padding: 1rem;
+    background-color: black;
+}
+.port{
+    background-color: darkgrey;
+    height: 35rem;
+    width: 100%;
+    padding-left: 1rem;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 15rem;
+    border-top-right-radius: 15rem;
+}
+.port1{
+    border-radius: 10rem;
+    width: 35rem;
+    margin-left: 20rem;
+    margin-top: 1rem;
+}
+#name{
+    color: rgb(100, 163, 158);
+    font-size: larger;
+    font-weight: 300;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#name1{
+    color: white;
+    font-size: large;
+    font-weight: 300;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.color{
+    background-color:rgb(96, 110, 120) ;
+    height: 40rem;
+    width: 100%;
+    border-bottom-left-radius: 15rem;
+    border-top-right-radius: 15rem;
+}
+.connect1{
+    /* background-image: url(img/DGUA9044.JPG); */
+    height: 40rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.connect0{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+.connect2{
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    margin: 2rem auto;
+    width: 70%;
+}
+.layo{
+    background-color:rgb(105, 173, 191) ;
+    height: 30rem;
+    width: 100%;
+    border-bottom-left-radius: 15rem;
+    border-top-right-radius: 15rem;
+}
+.connect5{
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    margin: 2rem auto;
+    width: 70%;
+}
+#btn{
+    height: 40px;
+    width: 130px;
+    border: none;
+    outline: none;
+    background-color: rgb(3, 41, 51);
+    color: white;
+    margin-top: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    .nike{
+        background-color:rgb(3, 41, 51) ;
+        height: 40rem;
+        width: 100%;
+        border-bottom-left-radius: 15rem;
+    border-top-right-radius: 15rem;
+    }
+    .connect6{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    
+    }
+    .connect7{
+        background-image: url(img/food.jpg);
+        height: 40rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .connect8{
+        font-size: 2rem;
+        font-weight: 600;
+        color: white;
+        margin: 2rem auto;
+        width: 70%;
+    }
+    #btn1{
+        height: 40px;
+        width: 130px;
+        border: none;
+        outline: none;
+        background-color: rgb(105, 173, 191);
+        color: white;
+        margin-top: 1rem;
+        border-radius: 5px;
+        cursor: pointer;
+        }
+        .ayo{
+            background-color:rgb(105, 173, 191) ;
+            height: 40rem;
+            width: 100%;
+            border-bottom-left-radius: 15rem;
+    border-top-right-radius: 15rem;
+        }
+        .connect9{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        
+        }
+        .connect10{
+            background-image: url(img/paris.jpg);
+            height: 40rem;
+            width: 40rem;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .connect11{
+            font-size: 2rem;
+            font-weight: 600;
+            color: white;
+            margin: 2rem auto;
+            width: 70%;
+        }
+        #btn2{
+            height: 40px;
+            width: 130px;
+            border: none;
+            outline: none;
+            background-color: rgb(3, 41, 51);
+            color: white;
+            margin-top: 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            }
+            .row_text {
+                display: grid;
+                 background-color: darkgrey;
+                height: 30rem;
+                width: 100%;
+                color: white;
+                text-align: center; 
+                margin-top: 2rem;
+                grid-template-columns: repeat(4,1fr);
+                display: grid;
+                gap: 1rem;
+                border-radius: 15rem;
+            }
+            .grid-container{
+                margin-top: 5rem;
+            margin-left: 3rem;
+              font-size: 1rem;
+            }
+            .grid-contain{
+                margin-top: 5rem;
+                font-size: 1rem;
+            }
+            .grid-context{
+                margin-top: 5rem;
+                font-size: 1rem
+            }
+            @media screen and (max-width: 600px){
+                .connect5{
+                    font-size:20px;
+                }
+                .layo{
+                    background-color:red;
+                }
+            }
